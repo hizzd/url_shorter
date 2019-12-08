@@ -26,5 +26,5 @@ Result(200 if success status code, non-200 if error):
   "key": "abc"
 }
 ```
-接下来访问http://localhost:8081/abc将会跳转到http://www.github.com   
+接下来访问http://localhost:8081/abc 将会跳转到 http://www.github.com   
 Next visit http://localhost:8081/abc will jump to http://www.github.com   
