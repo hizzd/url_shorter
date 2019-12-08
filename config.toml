@@ -1,0 +1,17 @@
+[db.redis]
+addr = "localhost:6379"
+db = 0
+
+[options]
+httpAddr = [":8081"]
+# redis中的key前缀
+redisPrefix = "urlshort:"
+# key包含的字符
+keyCharMap = "abcdefghjkmnpqrstwxyz23456789"
+# key的长度
+keyLength = 3
+# 如果key冲突了，重试次数
+retryCount = 1000
+[options.security]
+# 访问token，可以多个
+token = ["000000"]
